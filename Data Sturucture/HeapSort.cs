@@ -9,7 +9,7 @@ namespace Data_Sturucture
         
       public void sort(int[] arr)
       {
-          int n = arr.Length; 
+          int n = arr.Length;
 
           // Build heap (rearrange array) //المسوءله عن ترتيب الشجره
           for (int i = n / 2 - 1; i >= 0; i--)
